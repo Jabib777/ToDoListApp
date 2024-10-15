@@ -10,11 +10,14 @@ public class Task {
     private String description;
     private LocalDate deadline; // **Changed to LocalDate for better date handling**
     private boolean isCompleted;
+    private String priority; // New attribute for task priority
+    
 
-    public Task(String description, String deadline) {
+    public Task(String description, String deadline, String priority) {
         this.id = idCounter++;
         this.description = description;
         setDeadline(deadline);  // **Updated to call the new setDeadline method**
+        this.priority = priority; // Set priority
         this.isCompleted = false;
     }
 
@@ -33,6 +36,11 @@ public class Task {
     public boolean isCompleted() {
         return isCompleted;
     }
+
+    public String getPriority() {
+        return priority; // Getter for priority
+    }
+
 
     public void markAsCompleted() {
         this.isCompleted = true;
@@ -55,6 +63,7 @@ public class Task {
         return "Task ID: " + id +
                ", Description: " + description +
                ", Deadline: " + deadline +
-               ", Completed: " + (isCompleted ? "Yes" : "No");
+               ", Completed: " + (isCompleted ? "Yes" : "No")+
+               ", Priority: " + priority; // Include priority in toString;
     }
 }
