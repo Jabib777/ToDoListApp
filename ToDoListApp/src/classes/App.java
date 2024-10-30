@@ -8,13 +8,13 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the To-Do List App!");
+        System.out.println("いらっしゃいませ to the To-Do List App!");
         while (true) {
             System.out.println("\nOptions:");
-            System.out.println("一. Add a new task");
-            System.out.println("二. View all tasks");
-            System.out.println("三. Mark a task as completed");
-            System.out.println("四. Exit");
+            System.out.println("一. Add a 新しいタスコ");
+            System.out.println("二. View ぜんぶタスコ");
+            System.out.println("三. Mark a タスコをおわりました");
+            System.out.println("四. 出ます");
             System.out.print("えらんでください: ");
 
             
