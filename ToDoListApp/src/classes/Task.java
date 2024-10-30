@@ -53,7 +53,8 @@ public class Task {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             this.deadline = LocalDate.parse(deadline, formatter);
         } catch (DateTimeParseException e) {
-            System.out.println("Invalid date format. Please use 'yyyy-MM-dd'.");
+            System.out.println("Invalid date format. "
+            					+ "\nPlease use 'yyyy-MM-dd'."); // Moved to next line
             this.deadline = null; // or set to a default date if necessary
         }
     }
