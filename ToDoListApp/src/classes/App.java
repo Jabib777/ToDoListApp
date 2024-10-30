@@ -11,10 +11,10 @@ public class App {
         System.out.println("Welcome to the To-Do List App!");
         while (true) {
             System.out.println("\nOptions:");
-            System.out.println("1. Add a new task");
-            System.out.println("2. View all tasks");
-            System.out.println("3. Mark a task as completed");
-            System.out.println("4. Exit");
+            System.out.println("[1] Add a new task");
+            System.out.println("[2] View all tasks");
+            System.out.println("[3] Mark a task as completed");
+            System.out.println("[4] Exit");
             System.out.print("Choose an option: ");
             
             int choice = scanner.nextInt();
