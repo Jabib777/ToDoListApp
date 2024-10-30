@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the To-Do List App!");
+        System.out.println("ようこそう！この日本語をよめるか、あなたは天才です。");
         while (true) {
             System.out.println("\nOptions:");
             System.out.println("一. Add a new task");
