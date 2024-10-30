@@ -31,11 +31,11 @@ public class App {
                     completeTask(scanner);
                     break;
                 case 4:
-                    System.out.println("Exiting the app. Goodbye!");
+                    System.out.println("Exiting the app. Sayonara!");
                     scanner.close();
                     return;
                 default:
-                    System.out.println("Invalid option. Please try again.");
+                    System.out.println("Invalid option. Please try again..");
             }
         }
     }
