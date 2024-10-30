@@ -45,6 +45,7 @@ public class Task {
     public void markAsCompleted() {
         this.isCompleted = true;
         System.out.println("Task ID " + id + " marked as completed."); // Log completion
+        System.out.println("The task deadline was at " + deadline + " and the task was completed at " + LocalDate.now);
     }
 
     // Method to set the deadline with validation
@@ -65,6 +66,6 @@ public class Task {
                ", Description: " + description +
                ", Deadline: " + deadline +
                ", Completed: " + (isCompleted ? "Yes" : "No")+
-               ", Priority: " + priority; // Include priority in toString;
+               ", Priority Number: " + priority; // Include priority in toString;
     }
 }
