@@ -32,7 +32,7 @@ public class App {
                     completeTask(scanner);
                     break;
                 case 4:
-                    System.out.println("Exiting the app. Goodbye!");
+                    System.out.println("Exiting the app. さよなら!");
                     scanner.close();
                     return;
                 default:
