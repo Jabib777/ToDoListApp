@@ -65,6 +65,6 @@ public class Task {
                ", Description: " + description +
                ", Deadline: " + deadline +
                ", Completed: " + (isCompleted ? "Yes" : "No")+
-               ", Priority: " + priority; // Include priority in toString;
+               ", Priority Number: " + priority; // Include priority in toString;
     }
 }
