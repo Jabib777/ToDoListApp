@@ -16,6 +16,7 @@ public class App {
             System.out.println("三. Mark a task as completed");
             System.out.println("四. Exit");
             System.out.print("えらんでください: ");
+
             
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
