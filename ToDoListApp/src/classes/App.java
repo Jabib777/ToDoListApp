@@ -9,10 +9,14 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println("いらっしゃいませ to the To-Do List App!");
 =======
         System.out.println("ようこそう！この日本語をよめるか、あなたは天才です。");
 >>>>>>> main
+=======
+        System.out.println("ようこそう！この日本語をよめるか、あなたは天才です。");
+>>>>>>> 7b236ea2078eac291faebbd43a47cf739d7e5923
         while (true) {
             System.out.println("\nOptions:");
             System.out.println("一. Add a 新しいタスコ");
